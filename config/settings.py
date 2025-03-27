@@ -43,7 +43,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # more
+    # Imports
+
+    'rest_framework',
+
+    # Aplications
 
     'account',
     'shop'
