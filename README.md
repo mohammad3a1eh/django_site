@@ -2,8 +2,9 @@
  
 ## setup
 ```
-python -m venv venv
+python -m venv .venv
 
-# in PowerShell
-.\venv\Scripts\activate
+./.venv/bin/activate
+
+pip install -r requirements.txt
 ```
